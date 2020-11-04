@@ -1,0 +1,148 @@
+.padding-body
+{
+    background-color:white;
+    text-align: center;
+    height: 250px;
+}
+.padding-body>div
+{
+box-shadow: 3px 3px 20px black;
+}
+.box-showdowSP
+{
+    box-shadow: 10px 10px 8px black;
+}
+.icon-bar1{
+    position: fixed;
+    z-index: 2;
+    top: 35%;
+    right: 0%;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+  .read-more>button
+  {
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    position: relative;
+    left: 450px;
+
+  }
+  .color-Discounts
+  {
+    background-color: rgb(117, 113, 113);
+    height: 170px;
+    box-shadow: #000 5px 5px 3px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+  .color-Discounts .col-sm-4
+  {
+    text-align: center;
+  }
+  .color-Discounts .col-sm-8
+  {
+    margin-top: 30px;
+  }
+  .color-Discounts .col-md-8 button
+  {
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  .checked 
+  {
+    color: orange;
+  }
+  #dots
+  {
+    display: none;
+  }
+  #more
+  {
+    display: none;
+  }
+  .founder-dior
+  {
+    margin-bottom: 20px;
+  }
+  .col-sm-10 div 
+  {
+    height: 300px;
+  }
+  .size-Sp>div
+  {
+    width:24%; height: 100%; box-shadow: 2px 5px 10px; border-radius: 5px; border:solid; border-width: 1px; padding: 5px;
+  }
+  .success 
+  {
+    background-color:rgb(56, 100, 231);
+  } /* Green */
+  .label {
+    color: white;
+    padding: 8px;
+  }
+  .color-2
+  {
+    background-color:rgb(98, 133, 240);
+    border:solid;
+    border-radius: 2px;
+    color: white;
+  }
+  .color-2 a
+  {
+    color: white;
+  }
+  .BCT
+  {
+    width: 200px;
+    margin: 20px;
+    position: relative;
+    left: -30px;
+  }
+  
+
