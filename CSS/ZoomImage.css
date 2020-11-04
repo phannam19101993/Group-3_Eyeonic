@@ -1,0 +1,21 @@
+/* ZoomImage.css */
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
+
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 0.5px thick #000;
+  border-radius: 50%;
+  cursor: none;
+
+   /*Set the size of the magnifier glass:*/
+   width: 150px;
+   height: 150px;
+ }
+ #myimage{
+  width: 650px;
+  height: 600px;
+  }
