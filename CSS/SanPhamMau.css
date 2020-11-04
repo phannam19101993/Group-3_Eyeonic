@@ -1,0 +1,50 @@
+
+
+
+ /* Trangsanphammau.css */
+  .Gia{
+      color: red;
+      font-size: large;
+  }
+  
+  body {font-family: Arial, Helvetica, sans-serif;}  
+
+  .IDSP{
+    text-align: center;
+    font-size: 20px;
+  }
+  .div1{
+    cursor: pointer;
+    border: groove  ;
+    border-radius: 10px;
+    border-width: thin ;
+    padding: 20px 60px;
+    text-decoration: none;
+    background-color:rgba(177, 223, 241, 0.842);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: bold;
+    font-style: italic;
+  }
+  .DatHang{
+   border:  solid ;
+   border-width: thin ;
+   border-radius: 10px;
+   padding: 20px 60px;
+   text-decoration:none;
+   background-color:rgb(218, 125, 19);
+   color:rgb(245, 239, 239);
+  }
+  #SoLuong{
+    height: 30px;
+    width: 70px;
+    border: solid;
+    border-radius: 30px;
+    
+  }
+
+
+
+
+ 
+
