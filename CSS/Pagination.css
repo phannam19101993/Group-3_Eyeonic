@@ -1,0 +1,15 @@
+ /* Pagination.css */
+ ul{
+    list-style-type: none ;
+    overflow: hidden;
+  }
+  li{
+    float: left;
+    padding: 5px;
+    
+  }
+
+
+ 
+
+
