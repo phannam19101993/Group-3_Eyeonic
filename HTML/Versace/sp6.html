@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayban-1-RB3429M 003/R5</title> 
+    <link rel="stylesheet" href="../../CSS/ModalBox.css">
+    <link rel="stylesheet" href="../../CSS/Pagination.css">
+    <link rel="stylesheet" href="../../CSS/PopUpChat.css">
+    <link rel="stylesheet" href="../../CSS/SanPhamMau.css"> 
+    <link rel="stylesheet" href="../../CSS/Text.css">
+    <link rel="stylesheet" href="../../CSS/ZoomImage.css">
+     <link rel="stylesheet" href="../../CSS/TrangChu.css">
+   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script>
+      function magnify(imgID, zoom) {
+        var img, glass, w, h, bw;
+        img = document.getElementById(imgID);
+        /*create magnifier glass:*/
+        glass = document.createElement("DIV");
+        glass.setAttribute("class", "img-magnifier-glass");
+        /*insert magnifier glass:*/
+        img.parentElement.insertBefore(glass, img);
+        /*set background properties for the magnifier glass:*/
+        glass.style.backgroundImage = "url('" + img.src + "')";
+        glass.style.backgroundRepeat = "no-repeat";
+        glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
+        bw = 3;
+        w = glass.offsetWidth / 2;
+        h = glass.offsetHeight / 2;
+        /*execute a function when someone moves the magnifier glass over the image:*/
+        glass.addEventListener("mousemove", moveMagnifier);
+        img.addEventListener("mousemove", moveMagnifier);
+        /*and also for touch screens:*/
+        glass.addEventListener("touchmove", moveMagnifier);
+        img.addEventListener("touchmove", moveMagnifier);
+        function moveMagnifier(e) {
+          var pos, x, y;
+          /*prevent any other actions that may occur when moving over the image*/
+          e.preventDefault();
+          /*get the cursor's x and y positions:*/
+          pos = getCursorPos(e);
+          x = pos.x;
+          y = pos.y;
+          /*prevent the magnifier glass from being positioned outside the image:*/
+          if (x > img.width - (w / zoom)) {x = img.width - (w / zoom);}
+          if (x < w / zoom) {x = w / zoom;}
+          if (y > img.height - (h / zoom)) {y = img.height - (h / zoom);}
+          if (y < h / zoom) {y = h / zoom;}
+          /*set the position of the magnifier glass:*/
+          glass.style.left = (x - w) + "px";
+          glass.style.top = (y - h) + "px";
+          /*display what the magnifier glass "sees":*/
+          glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
+        }
+        function getCursorPos(e) {
+          var a, x = 0, y = 0;
+          e = e || window.event;
+          /*get the x and y positions of the image:*/
+          a = img.getBoundingClientRect();
+          /*calculate the cursor's x and y coordinates, relative to the image:*/
+          x = e.pageX - a.left;
+          y = e.pageY - a.top;
+          /*consider any page scrolling:*/
+          x = x - window.pageXOffset;
+          y = y - window.pageYOffset;
+          return {x : x, y : y};
+        }
+      }
+    </script>
+</head>
+  <body>
+
+    <header class="container-fluid">
+      <div class="nav-header ">
+          <a href=""><span class="glyphicon glyphicon-map-marker incon-map"></span><span>Store Location</span></a>
+          <span class="glyphicon glyphicon-phone-alt incon-map"></span><span>Call Phone: +840398424137 </span>
+          <a href="#" class="btn btn-info btn-sm icon-shopingcart">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+          </a>
+      </div>
+          <div class="row"> 
+              <div class="col-sm-2 nav-header-1" ><a href="../TrangChu-1.html"><img src="../../image/Logo/logo01.png" alt="logo"></a></div>
+              <div class="col-sm-10 "><h1 class="nav-header-banner">Eyeonic</h1></div>
+          </div>
+  </header>
+  <!--xong header-->
+  <nav class="navbar navbar-default nav-header-nava">
+      <div class="container-fluid nav-header-nava-color"  > 
+          <div class="navbar-header " > 
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" > 
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand header-brand" href="../TrangChu-1.html">Eyeonic</a> 
+          </div>
+          <div class="navbar-collapse collapse " id="myNavbar" > 
+              <ul class="nav navbar-nav menu-border">
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Eyeglasses<span class="caret"></span></a>
+                      <div class="dropdown-menu dropdown-menu-width">
+                          <div class="row dropdown-menu-li-padding" >
+                              <div class="col-md-2 dropdown-menu-li">
+                                  <ul>
+                                      <h4>Gender</h4>
+                                      <li><a href="../ManSunGlasses.html"> Men's Eyeglasses</a></li>
+                                      <li><a href="../WomenSunGlasses.html"> Women's Eyeglasses </a></li>
+                                      <li><a href="../KidSunglass.html"> Kid's Eyeglasses</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-6 dropdown-menu-li ">
+                                  <div class="row">
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-2.jpg" alt=""><p>Ractangle</p></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-1.jpg" alt=""><p>Browline</p></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-3.jpg" alt=""><p>Wayframe</p></a></div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-4.jpg" alt=""><p>Round</p></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-5.jpg" alt=""><p>Cat Eye</p></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/Logo/logo-menu-6.jpg" alt=""><p> Rimless</p></a></div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4"><a href=""></a><img src="../../image/Logo/logo-menu-Eyeglasses.jp2" alt=""></div>
+                          </div>
+                      </div>
+                  </li>        
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sunglasses<span class="caret"></span></a>
+                      <div class="dropdown-menu dropdown-menu-width ">
+                          <div class="row dropdown-menu-li-padding" >
+                              <div class="col-md-2 dropdown-menu-li">
+                                  <ul>
+                                     
+                                      <li><a href=""> Men's Sunglasses </a></li>
+                                      <li><a href=""> Women's Sunglasses</a></li>
+                                      <li><a href=""> Kid's Sunglasses</a></li>
+                                      <li><a href="">Rayban Sunglasses </a></li>
+                                     
+                                  </ul>
+                              </div>
+                              <div class="col-md-6 dropdown-menu-li ">
+                                  <div class="row">
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/Dragon.svg" alt="" width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/Biofinity.svg" alt=""width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/BioTrue.svg" alt=""width="150px"></a></div>
+                                      
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/ColeHaan.svg" alt=""width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/ACUVUE.svg" alt=""width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/AirOptix.svg" alt=""width="150px"></a></div>
+                               
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/Dailies.svg" alt=""width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/Ferragamo.svg" alt=""width="150px"></a></div>
+                                      <div class="col-xs-3"><a href=""><img src="../../image/AllTheBrandsYouLove/Gucci.svg" alt=""width="150px"></a></div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-md-4"><a href=""><img src="../../image/Logo/logo-menu-sale-off.jp2" alt=""></a></div>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands<span class="caret"></span></a>
+                      <div class="dropdown-menu dropdown-menu-width ">
+                          <div class="row dropdown-menu-li-padding" >
+                              <div class="col-md-8 dropdown-menu-li ">
+                                  <div class="row">
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Dragon.svg" alt="" width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Biofinity.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/BioTrue.svg" alt=""width="160px"></a></div>
+                                      
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/ColeHaan.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/ACUVUE.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/AirOptix.svg" alt=""width="160px"></a></div>
+                               
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Dailies.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Ferragamo.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Gucci.svg" alt=""width="160px"></a></div>
+                                    
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/Nike.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/NineWest.svg" alt=""width="160px"></a></div>
+                                      <div class="col-xs-3 brands"><a href=""><img src="../../image/AllTheBrandsYouLove/RayBan.svg" alt=""width="160px"></a></div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4"><a href=""><img src="../../image/Logo/logo-menu-sale-off.jp2" alt=""></a></div>
+                             
+                          </div>
+                      </div>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+                      <div class="dropdown-menu dropdown-menu-width dropdown-menu-width-Contact">
+                          <div class="row dropdown-menu-li-padding" > 
+                                  <div class="col-md-3 dropdown-menu-li">
+                                      <ul>   
+                                          <li><a href="">Daily</a></li>
+                                          <li><a href="">Weekly</a></li>
+                                          <li><a href="">Monthly</a></li>
+                                          <li><a href="">Single Vesion</a></li>
+                                          <li><a href="">Shop All Contact</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-md-4 dropdown-menu-li dropdown-menu-li-Contact">
+                                      <div class="row"><a href=""><img src="../../image/AllTheBrandsYouLove/Dragon.svg" alt="" width="140px"></a></div>
+                                      <div class="row"><a href=""><img src="../../image/AllTheBrandsYouLove/Biofinity.svg" alt=""width="140px"></a></div>
+                                      <div class="row"><a href=""><img src="../../image/AllTheBrandsYouLove/BioTrue.svg" alt=""width="140px"></a></div>
+                                      <div class="row"><a href=""><img src="../../image/AllTheBrandsYouLove/ColeHaan.svg" alt=""width="140px"></a></div>
+                                  </div>
+                              <div class="col-md-5"><a href=""><img src="../../image/Logo/logo-menu-sale-off.jp2" alt=""></a></div>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore<span class="caret"></span></a>
+                      <div class="dropdown-menu dropdown-menu-width dropdown-menu-width-Explore">
+                          <div class="row dropdown-menu-li-padding" >
+                              <div class="col-md-4 dropdown-menu-li dropdown-menu-li-Explore-text">
+                                 <ul>
+                                      <li><a href="">How To Order Glasses Online</a> </li>
+                                      <li><a href="">How To Find Your Frame Size</a></li>
+                                      <li><a href="">How To Measure Your PD</a></li>
+                                     `<li><a href="">About Us</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-4 dropdown-menu-li">
+                                  <div class="row"><a href=""><img src="../../image/Logo/logo-menu-sale-off.jp2" width="180px" alt=""></a></div>
+                              </div>
+                              <div class="col-md-4 dropdown-menu-li">
+                                  <div class="row"><a href=""><img src="../../image/Logo/logo-menu-sale-off.jp2" width="180px" alt=""></a></div>
+                              </div>
+                          </div>
+                      </div>       
+                  </li>        
+              </ul>
+              <form class="navbar-form navbar-right form-border" role="search">
+                  <div class="form-group input-group">
+                    <input type="text" class="form-control" placeholder="Search..">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                      </button>
+                    </span>        
+                  </div>
+                </form>
+          </div>
+      </div>
+  </nav>
+  <div class="icon-bar icon-bar1">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+      <a href="#" class="google"><i class="fa fa-google"></i></a> 
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+    
+
+
+
+
+  <div class="container-fixed"> 
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-6">
+                            <img id="myimage" src="../../image/Versace/sp6.jpg"  > 
+                            <div class="thumbs">
+                                <ul> 
+                                    <li>
+                                        <button class="nut" > <a href="../../image/kinh1.jpg" target="_self"><img src="../../image/kinh1.jpg" alt="kinh1" width="63" height="42"></a> </button> 
+                                    </li>
+                                    <li>
+                                          <button class="nut" > <a href="../../image/kinh2.jpg" target="_self"><img src="../../image/kinh2.jpg" alt="kinh2" width="63" height="42"> </a> </button>
+                                      </li>
+                                      <li>
+                                          <button ><a href="../../image/kinh3.jpg" target="_self"><img src="../../image/kinh3.jpg" alt="kinh3" width="63" height="42"> </a> </button>
+                                      </li>
+                                  </ul>
+                              </div>
+                            <p class="text">Gianni Versace S.r.l. (Italian pronunciation: [ˈdʒanni verˈsaːtʃe]),usually referred to simply as Versace, is an Italian luxury fashion company and trade name founded by Gianni Versace in 1978. The main collection of the brand is Versace, which produces upmarket Italian-made ready-to-wear and leather accessories. The Versace logo is the head of Medusa, a Greek mythological figure. The logo came from the floor of ruins in the area of Reggio Calabria that the Versace siblings played in as children. Gianni Versace chose Medusa as the logo because she made people fall in love with her and they had no way back. He hoped his company would have the same effect on people and on those who wore his clothes and shoes.
+
+                                The Versace brand is known for its innovative designs having symbolic flashy prints and bright colors but with style.The company announced in 2018 that it would stop using fur in its collections.On 25 September 2018, Michael Kors Holdings acquired all outstanding shares in Gianni Versace S.r.l. for $2.12 billion (USD); the acquisition was completed on 31 December 2018, keeping on Donatella Versace as head of creative design.</p>
+                              <!-- <div class="title-tab">
+                                  <h3>                         
+                                    Recommended For You
+                                  </h3>
+                            </div>  -->
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                              <div class="ThongTinSanPham">
+              
+                                <img  src="../../image/Logo/Versace.png"  weight="100px" height="250px" alt="">
+            
+                                <div class="IDSP">
+                                <b>Code:</b> RB3429M 003/R5
+                                <br>     
+                                
+                                    <div >
+                                      <p><b>Price:</b> 
+                                          <span class="Gia">600<sup>$</sup></span> 
+                                      </p>
+                                    </div>
+                                </div> <br>                               
+                                        <div class="row">
+                                           <!-- <div class="col-sm-2"></div> -->
+                                           <div class="col-sm-4">
+                                                  <select name="SoLuong" id="SoLuong" >
+                                                    <option value="1">&nbsp;&emsp; 1</option>
+                                                    <option value="1">&nbsp;&emsp; 2</option>
+                                                    <option value="1">&nbsp;&emsp; 3</option>
+                                                    <option value="1">&nbsp;&emsp; 4</option>
+                                                    <option value="1">&nbsp;&emsp; 5</option>
+                                                    <option value="1">&nbsp;&emsp; 6</option>
+                                                    <option value="1">&nbsp;&emsp; 7</option>
+                                                    <option value="1">&nbsp;&emsp; 8</option>
+                                                    <option value="1">&nbsp;&emsp; 9</option>
+                                                    <option value="1">&nbsp;&emsp; 10</option>
+                                                </select>
+                                           </div>
+                                           <div class="col-sm-8">
+                                                <span ><a href="" class="DatHang" >Choose Lenses </a></span> 
+                                           </div>
+                                        </div> <br>      
+                                        <p>                                                                                                                                                                                                         
+                            <div class="div1" id="btn1" > INFORMATION </div> 
+                                  <div class="text" id="b1" style="display: none; "><b>Gender</b> : Male/Female <br>
+                                   <b> Eye material </b>: Plastic <br>
+                                   <b> Frames </b>: Metal/Plastic   <br>
+                                   <b> Eye Color</b>: Gold Anti-Glare/Mirror <br>
+                                   <b> Frames Color </b>: Dark Gray <br>
+                                   <b> UV400 Filter </b>: Yes </div>  <br>
+                            <div class="div1"  id="btn2"  >  PAYMENT </div>
+                                  <div class="text" id="b2" style="display: none; ">+ Pay directly at the store by cash or bank card <br>
+                                    + Payment after receiving goods in Hanoi and Saigon <br>
+                                    + In other provinces pay 100% before delivery</div><br>
+                            <div class="div1" id="btn3"  >  CONTACT </div>
+                                  <div class="text" id="b3" style="display: none; ">- Ho Chi Minh: 86 Ly Tu Trong, District 1 
+                                    
+                                      <br>
+                                   - Ha Noi: 26C Ba Trieu, Hoan Kiem 
+                                     
+                                   <br>
+                                   - Hotline: 12345678 </div> </p><br>
+                                  <!--ModalBox1  -->
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="glyphicon glyphicon-hand-right ModalBox" id="ModalBox1"> 100% Money Back Guarantee</div>
+                                    <!-- The Modal -->
+                                    <div id="myModal1" class="modal">
+
+                                      <!-- Modal content -->
+                                      <div class="modal-content">
+                                        <span1 class="close1">&times;</span1>
+                                        <h3 class="titlemodal">Money Back Guaranteed</h3>
+                                        <div class="div2"></div><br>
+                                        <p>Enjoy Free Shipping and returns on all orders .
+                                           If, for any reason, you are not completely satisfied with your order, you may return it within the first 14 days.
+                                            We even provide you with a return shipping label, no questions asked!</p>
+                                      </div>
+                                      </div>
+
+                                    </div>
+                                    
+                                <!-- ModalBox2 -->
+                                    <div class="glyphicon glyphicon-hand-right ModalBox" id="ModalBox2"> Free Shipping and Returns</div>
+                                    <!-- The Modal -->
+                                    <div id="myModal2" class="modal">
+
+                                      <!-- Modal content -->
+                                      <div class="modal-content">
+                                        
+                                        <span2 class="close2">&times;</span2>
+                                        <h3 class="titlemodal">Free Ship And Returns </h3>
+                                        <div class="div2"></div><br>
+                                        <p>Enjoy Free Shipping and returns on all orders .
+                                           If, for any reason, you are not co mpletely satisfied with your order, you may return it within the first 14 days.
+                                            We even provide you with a return shipping label, no questions asked!</p>
+                                      </div>
+
+                                    </div>
+
+                                    <h2>Size</h2>
+                                    
+                                        <div class="col-sm-6">
+                                                    <img src="../../image/HinhSize/1.png"  alt="">
+                                                      <div class="row">                
+                                                            <div class="col-sm-3">
+                                                            </div>
+                                                            <div class="col-sm-4"> 
+                                                              <p>90mm </p> 
+                                                            </div>
+                                                            <div class="col-sm-5"> 
+                                                            </div>
+                                                      </div>
+                                                                                            
+                                                      <img src="../../image/HinhSize/3.png" alt="">
+                                                      <div class="row">                
+                                                              <div class="col-sm-5">
+                                                                <p>50mm</p>
+                                                              </div>
+                                                              <div class="col-sm-1">                                                                 
+                                                              </div>
+                                                              <div class="col-sm-6">
+                                                                <p>58mm</p> 
+                                                              </div>
+                                                      </div>
+                                                      
+                                        </div>                                                                                                                                                                                                         
+                                        <div class="col-sm-6">                                                                                                                                                                                                                                                
+                                                    <img src="../../image/HinhSize/2.png"  alt="">
+                                                      <div class="row">                
+                                                        <div class="col-sm-2">
+                                                        </div>
+                                                        <div class="col-sm-8"> 
+                                                          <p>140mm</p> 
+                                                        </div>
+                                                        <div class="col-sm-2">
+                                                        </div>
+                                                      </div>
+                                                                                            
+                                                      <img src="../../image/HinhSize/4.png" alt="">                                                   
+                                                      <div class="row">                
+                                                        <div class="col-sm-2">
+                                                        </div>
+                                                        <div class="col-sm-8"> 
+                                                          <p>19mm</p> 
+                                                        </div>
+                                                        <div class="col-sm-2">
+                                                      </div>
+                                        </div>                                                                                    
+                                  </div>             
+                  </div>
+            </div>
+
+        </div>
+        <div class="col-sm-2">
+            <button class=" open-button"  onclick="openForm()"> Chat Online</button>
+               <div class="chat-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+
+
+        </div>
+
+       </div>
+
+       <!-- FOOTER -->
+
+       <footer class="container-fluit">
+        <div class="row footer-children">
+            <div class="col-sm-3">
+              <h3>Star Rating</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <p>Eyeonic is the leading genuine eyewear dealer in Vietnam, specializing in distributing and retailing high-end eyewear brands of the world's largest eyewear corporation: Rayban, Gucci, Dior, Versace...</p>
+            </div>
+            <div class="col-sm-3" >
+                <ul>
+                  <li><b>POLICY</b></li>
+                  <li><a href="/HTML/PrivacyPolicy.html">Privacy Policy</a></li> 
+                  <li><a href="/HTML/PreferentialCustomers.html">Preferential customers</a></li> 
+                  <li><a href="/HTML/LifetimeWarrantyPolicy.html">Lifetime warranty policy</a></li> 
+                  <li><a href="/HTML/ForwardingPolicy.html">Forwarding policy</a></li> 
+                  <li><a href="/HTML/ProductExchangePolicy.html">Product exchange policy</a></li> 
+                </ul>
+            </div>
+            <div class="col-sm-3" >
+                <ul>
+                  <li><b>CUSTOMER SUPPORT</b></li> 
+                  <li><a href="">Shopping guide</a></li> 
+                  <li><a href="/HTML/WarrantyLookup.html">Warranty lookup</a></li> 
+                  <li><a href="">Regulations on gift certificates</a></li> 
+                  <li><a href="">Terms of use</a></li> 
+                </ul>
+            </div>
+            <div class="col-sm-3" >
+                <p><b>Payment</b></p>
+                  <i class="fa fa-cc-visa" style="color:navy;font-size: 30px;"></i>
+                  <i class="fa fa-cc-amex" style="color:blue;font-size: 30px;"></i>
+                  <i class="fa fa-cc-mastercard" style="color:red;font-size: 30px;"></i>
+                  <i class="fa fa-cc-discover" style="color:orange;font-size: 30px;"></i>
+                  <img class="BCT" src="../../image/Logo/Logo-custom-dathongbao.png" alt="chứng nhận bộ công thương">
+            </div>
+        </div>
+    <div class="row">
+      <div class="copyright copyright-address">
+          <p>@ Seeson 2020 <br>
+              A Limited liability Company Ayeonic<br>
+              TaxCode: 0108534705 <br>
+              Address: km19, Route 32,Thượng Thụy, Ward Đức Thượng,District Hoài Đức,Hà Nội City, Việt Nam <br>
+              Business License: 0108534705 – 05/12/2020 <br>
+              Granting Agencies: Business Registrantion Office – Investment Planning Deparment Hà Nội City</p>
+      </div>
+    </div>
+</footer>
+    
+       
+     
+        
+    
+      
+        <!-- script -->
+        
+                   
+  
+       
+    <script>
+// MODALBOX1
+      // Get the modal
+      var modal1 = document.getElementById("myModal1");
+      
+      // Get the button that opens the modal
+      var btn1 = document.getElementById("ModalBox1");
+      
+      // Get the <span> element that closes the modal
+      var span1 = document.getElementsByClassName("close1")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn1.onclick = function() {
+        modal1.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span1.onclick = function() {
+        modal1.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal1.style.display = "none";
+        }
+      }
+</script> 
+
+<script>
+  //MODALBOX2 
+       // Get the modal
+       var modal2 = document.getElementById("myModal2");
+      
+      // Get the button that opens the modal
+      var btn2 = document.getElementById("ModalBox2");
+      
+      // Get the <span> element that closes the modal
+      var span2 = document.getElementsByClassName("close2")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn2.onclick = function() {
+        modal2.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span2.onclick = function() {
+        modal2.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal2.style.display = "none" ;
+        }
+      }
+    </script>
+    <!-- Popup Chat -->
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+
+                  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <!-- Compiled and ninified Java script-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  
+    <script>
+      /* Initiate Magnify Function
+      with the id of the image, and the strength of the magnifier glass:*/
+      magnify("myimage", 1.75);
+       
+      </script>
+
+    <script>
+      $("#btn1").on("click",function(){
+        $("#b1").toggle(350);
+      })
+      $("#btn2").on("click",function(){
+        $("#b2").toggle(350);
+      })
+      $("#btn3").on("click",function(){
+        $("#b3").toggle(350);
+      })
+    </script>
+   
+</body>
+    
+
+</html>
