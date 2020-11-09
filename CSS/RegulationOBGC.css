@@ -1,0 +1,34 @@
+.border-seperate
+{
+    border:solid; 
+    border-width: 1px; 
+   margin-bottom: 10px;
+}
+table
+{
+    border: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+tr,td,th
+{
+    border: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+table ul li
+{
+    text-align: left;
+    list-style-type: none;
+}
+.Eyeonic-note
+{
+    color: rgb(209, 57, 57);
+}
