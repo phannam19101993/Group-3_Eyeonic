@@ -12,3 +12,35 @@ a
 {
     color: black;
 }
+a:hover
+{
+    color: teal;
+}
+.Glasses-sp
+{
+    margin-bottom: 10px;
+}
+.Glasses-sp div p del
+{
+    color: red;
+}
+.Glasses-sp button
+{
+    width: 49% ;
+    height: 30px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Glasses-sp button a:hover
+{
+    text-decoration: none;
+    color: tomato;
+    font-weight: 900;
+    
+}
+.Glasses-sp button:hover
+{
+    color:teal ;
+    
+}
