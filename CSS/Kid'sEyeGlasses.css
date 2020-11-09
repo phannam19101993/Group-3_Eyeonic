@@ -1,0 +1,13 @@
+.Content-Kids
+{
+    text-align: center; font-size: 20px; font-weight: 900;
+}
+.Content-Kids a
+{
+    color: rgb(223, 29, 62);
+}
+.Content-Kids a:hover
+{
+    color: teal;
+    text-decoration: none;
+}
