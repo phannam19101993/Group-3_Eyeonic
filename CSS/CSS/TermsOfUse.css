@@ -1,0 +1,22 @@
+.border-seperate
+{
+    border: solid;
+    border-width: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Terms
+{
+    border: solid; 
+    border-radius: 30px; 
+    display: inline;
+    border-width: 1px; 
+    border-color: pink; 
+    padding: 10px; 
+    background-color: pink;
+}
+.Terms-far
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

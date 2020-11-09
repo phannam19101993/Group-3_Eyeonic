@@ -1,0 +1,46 @@
+h2
+{ 
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+.Submit-text
+{
+    text-align: center;
+}
+.margin-submit
+{
+    margin-top: 10px;
+}
+.position-input
+{
+    text-align: center;
+    height: auto;
+}
+.size-input
+{
+    height: 50px;
+    width: 500px;
+    border: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+.button-submit
+{
+    height: 50px;
+    width: 100px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(209, 247, 248);
+    font-size: 18px;
+    font-weight:500;
+}
+.Or-call
+{
+    text-align: center;
+    font-size: 18px;
+    color:rgb(241, 82, 82);
+}

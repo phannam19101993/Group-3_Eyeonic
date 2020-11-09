@@ -1,0 +1,16 @@
+table
+{ 
+    border: solid;
+    border-width: 1px;
+   
+}
+td,th,tr
+{
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.Note
+{
+    color: red;
+}

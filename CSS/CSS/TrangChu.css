@@ -1,0 +1,525 @@
+body
+{
+    font-size: 14px;
+    margin: auto;
+}
+/*Hover-Start*/
+.dropdown-menu-li a:hover
+{
+    color:rgb(122, 215, 238);
+    background-color: white;
+    cursor: progress;
+}
+.footer-children div ul li a:hover
+{
+     color:rgb(122, 215, 238);    
+}
+.footer-children div ul li a
+{
+    text-decoration: none;
+}
+.dropdown-menu-li a
+{
+    text-decoration: none;
+   
+}
+.font-title div div ul li img:hover
+{
+    opacity: 0.5;
+   cursor: progress;
+}
+.Genuine-New-Glasses div img:hover
+{
+ 
+    background-color: rgb(5, 5, 20);
+}
+.Featured-Frames div div img:hover
+{
+    background-color: rgb(224, 28, 94);
+}
+.Trending div:hover
+{
+   text-align: center;
+}
+.Trending .border-sp-trending
+{
+    border-bottom: solid; border-width: 1px;
+   padding: 6px;
+}
+.Trending .border-sp-trending:hover
+{
+    box-shadow: rgb(224, 28, 94) 5px 5px 5px;
+}
+
+.Trending .border-sp-trending span span
+{
+    color: red;
+}
+/*Hover-End*/
+/*Start Header*/
+.nav-header a
+{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+.incon-map
+{
+    margin-right: 6px;
+}
+.nav-header
+{
+    background-color:white; height: 40px; box-shadow:15px 5px 5px rgb(211, 205, 205);
+    z-index: 1;
+    position: relative;
+}
+
+.nav-header-1 img
+{
+    width: 190px;
+    height: 170px;
+}
+.nav-header-banner
+{
+    text-align: center;
+    color:black;
+    font-family:cursive;
+    font-size:90px;
+    padding: 25px;
+}
+.nav-header-nava
+{
+    background-color:white; height: 25px; box-shadow:15px 5px 5px rgb(211, 205, 205);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border: solid;
+    border-color: whitesmoke;
+    position:relative; z-index: 1;
+}
+.nav-header-nava-1
+{
+    background-color: azure;
+}
+.nav-header-nava-color
+{
+    background-color: rgb(9, 9, 37);
+
+}
+/*decoration Button-Start*/
+.color-buy
+{ 
+    background-color:  rgba(0, 0, 0, 0.342);
+}
+.color-see
+{
+    background-color: rgba(0, 0, 0, 0.342);
+}
+/*decoration Button-end*/
+
+/*Logo-Brand-Start*/
+.header-brand
+{
+    font-size: 32px;
+    font-family:cursive;
+}
+/*Logo-Brand-End*/
+
+/*Body-Start*/
+.border-farther
+{
+    margin-left: 110px;
+    position:relative; z-index:0
+   
+}
+.border-farther div div div div
+{
+    margin: 2px 2px;
+}
+.Popular-Styles-text
+{
+    text-align: center;
+    margin-left: 130px;
+}
+.Popular-Styles-text a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.Popular-Styles-text a:hover
+{
+    color: rgb(31, 206, 230);
+
+}
+.Featured-Frames-text
+{
+    text-align: center;
+    margin-left: 130px;
+}
+
+.Featured-Frames-text a 
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.Featured-Frames-text a:hover
+{
+    color: rgb(31, 206, 230);
+}
+.Featured-Frames-text .money
+{
+    color: red;
+}
+.font-title
+{
+    font-size: 40px;
+    border-color:transparent;
+    font-family: cursive;
+}
+.carousel-inner img 
+{
+    width: 200%;
+    height: 200%;
+}
+.border-brand
+{
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.border-brand div
+{
+    border: solid;
+    border-width: 1px;
+    margin-left: 8px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgb(153, 113, 11);
+  
+}
+/*Body-End*/
+
+/* menu */
+.menu-border >li
+{
+    display: inline-block;
+    border-right: solid;
+    border-color: grey;
+    border-width: 1px;
+    font-size: 16px;
+}
+.dropdown-menu-width
+{
+    width:1000px;
+    background-color:white;
+}
+.dropdown-menu-width-us
+{
+    width: 500px;
+    background-color: azure;
+}
+.dropdown-menu-width-us div ul
+{
+    list-style-type: none;
+    color:rgb(153, 113, 11);
+}
+.dropdown-menu-width-us div ul a 
+{
+    color:rgb(153, 113, 11);
+}
+.dropdown-menu-width-us div ul li div
+{
+    border: solid; border-width: 1px;
+}
+.dropdown-menu-width-Eyeglasses
+{
+    width:800px ;
+}
+
+.dropdown-menu-width-Eyeglasses .Eyeglasses-1 a
+{
+    color: black;
+}
+.dropdown-menu-width-Eyeglasses .Eyeglasses-2
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+}
+.dropdown-menu-width-Eyeglasses .Eyeglasses-2-1
+{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    text-align: center;
+    
+}
+.dropdown-menu-width-Eyeglasses .Eyeglasses-2-1 a
+{
+    color: white;
+}
+.dropdown-menu-width-Eyeglasses .Eyeglasses-2-1 a:hover
+{
+    background-color:red;
+}
+.dropdown-menu-width-Eyeglasses .Eyeglasses-1 a:hover
+{
+    border-bottom:solid 1px rgb(238, 40, 73) ;
+}
+.dropdown-menu-width-Sunglasses
+{
+    width: 1100px;
+}
+.dropdown-menu-width-Sunglasses div div div .Sunglasses-1
+{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    text-align: center;
+}
+.dropdown-menu-width-Sunglasses div div div .Sunglasses-1-2
+{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    text-align: center;
+}
+.dropdown-menu-width-Sunglasses div div div .Sunglasses-1-2 a
+{
+    color: black;
+}
+.dropdown-menu-width-Sunglasses div div div .Sunglasses-1-2 a:hover
+{
+    background-color:rgb(250, 213, 120);
+    border-bottom:solid 1px black ;
+}
+.dropdown-menu-width-Contact
+{
+    width:800px
+}
+.dropdown-menu-width-Contact div div div .Contact-1
+{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    text-align: center;
+}
+.dropdown-menu-width-Contact div div div .Contact-1-2
+{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+.dropdown-menu-width-Contact div div div .Contact-1-2 a
+{
+    color: black;
+}
+.dropdown-menu-width-Contact div div div .Contact-1-2 a:hover
+{
+    background-color: rgb(175, 236, 238);
+    border-bottom: solid 1px black;
+}
+.dropdown-menu-width-Explore
+{
+    width: 660px;
+}
+.dropdown-menu-width-Deals
+{
+    width: 800px;
+}
+.dropdown-menu-width-Deals div div div h4
+{
+    position: absolute; 
+    top: 50%;
+    left: 6%;
+    color: white;
+    text-align: center;
+
+}
+.dropdown-menu-width-Deals div div div p
+{
+    position: absolute; 
+    top: 70%;
+    left: 10%;
+    text-align: center;
+}
+
+.dropdown-menu-width-Deals div div div p a
+{
+    color: white;
+
+}
+.dropdown-menu-width-Deals div div div p a:hover
+{
+    background-color: rgba(0, 0, 0, 0.034);
+    border: black;
+    border-bottom: solid;
+    border-width: 1px;
+    color:white;
+}
+.dropdown-menu-width-Deals div div div .Deals-2
+{
+    position: absolute; 
+    top: 50%;
+    left: 10%;
+    color: black;
+    text-align: center;
+}
+.dropdown-menu-width-Deals div div div .Deals-2-1 
+{
+    position: absolute; 
+    top: 80%;
+    left: 10%;
+    text-align: center;
+}
+.dropdown-menu-width-Deals div div div .Deals-2-1 a
+{
+    color: rgb(0, 0, 0);
+}
+.dropdown-menu-width-Deals div div div .Deals-2-1 a:hover
+{ 
+    color:black;
+    border-bottom:solid 1px black;
+    background-color: rgba(255, 196, 0, 0.548);
+}
+.dropdown-menu-width-Deals div div div .Deals-3
+{
+    position: absolute; 
+    top: 50%;
+    left: 4%;
+    color: white;
+    text-align: center;
+}
+.dropdown-menu-width-Deals div div div .Deals-3-1 
+{
+    position: absolute; 
+    top: 80%;
+    left: 10%;
+    text-align: center;
+
+}
+.dropdown-menu-width-Deals div div div .Deals-3-1 a
+{
+    color: white;
+}
+.dropdown-menu-li-padding
+{
+    margin-top: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  
+}
+.dropdown-menu-li-Contact
+{
+    padding-left: 50px;
+}
+.dropdown-menu-li .row .brands
+{
+    margin-left: 25px;
+}
+.dropdown-menu-li .row div
+{
+    margin-left: 15px;
+
+}
+.dropdown-menu-li ul li
+{ 
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+.dropdown-menu-li-Explore-text ul li
+{
+    font-size: 14px;
+}
+.dropdown-menu-li ul h4
+{
+    color: rgb(9, 136, 9);
+}
+.dropdown-menu-li ul li a
+{
+     color:goldenrod;
+}
+h5 a
+{
+    color:goldenrod;
+}
+:placeholder-shown
+{
+    font-size: 18px;
+    font-family:cursive;
+    padding-top: 5px;
+    padding-left: 23px;
+}
+/* end menu*/
+/* start footer*/
+
+footer
+{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(3, 1, 1, 0.829);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px rgb(3, 1, 1);
+}
+.footer-children
+{
+    padding-left: 10px;
+    font-family: sans-serif; 
+    font-size: 16px; 
+    font-weight: lighter;
+}
+.footer-children div ul
+{
+    list-style-type: none;
+}
+.footer-children div ul li
+{
+    color:rgba(255, 255, 255, 0.836);
+} 
+.footer-children div ul li a
+{
+    color:rgba(255, 255, 255, 0.836);
+}
+
+.footer-children div p
+{
+    color: rgba(255, 255, 255, 0.836);
+}
+.footer-children div h3
+{
+    color: rgba(255, 255, 255, 0.836);
+}
+.copyright-address p
+{
+    font-size: 16px;
+    text-align: center;font-family:sans-serif;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+/* end footer*/
+.box-showdow
+{
+    box-shadow: 5px 5px 10px black;
+}
+.boder-sp
+{
+    box-shadow: 3px 3px 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
