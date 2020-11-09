@@ -24,6 +24,12 @@ a:hover
 {
     color: red;
 }
+.Glasses-sp span
+{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: cursive;
+}
 .Glasses-sp button
 {
     width: 49% ;
@@ -43,4 +49,54 @@ a:hover
 {
     color:teal ;
     
+}
+.color-product-1
+{   
+    
+    background-color: white;
+}
+.color-product-2
+{
+   
+    background-color: teal;
+}
+.color-product-3
+{   
+    
+    background-color: red;
+}
+.color-product-4
+{
+   
+    background-color: yellow;
+}
+.color-product-5
+{
+  
+    background-color: royalblue;
+}
+.color-product-6
+{
+   
+    background-color: slateblue;
+}
+.color-product-7
+{
+   
+    background-color: violet;
+}
+.color-product-8
+{
+    
+    background-color: tomato;
+}
+.color-product-9
+{
+   
+    background-color: wheat;
+}
+.color-product-10
+{
+    
+    background-color: mediumspringgreen;
 }
