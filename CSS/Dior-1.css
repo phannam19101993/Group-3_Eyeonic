@@ -150,6 +150,7 @@ box-shadow: 3px 3px 20px black;
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
+    font-size: 18px;
   }
   
   .pagination a.active {
