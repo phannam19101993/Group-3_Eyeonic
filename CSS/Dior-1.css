@@ -147,7 +147,8 @@ box-shadow: 3px 3px 20px black;
   .pagination
   {
     position: relative;
-    margin: auto;
+
+    margin-left: 200px;
   }
   .pagination a {
     color: black;
