@@ -144,6 +144,11 @@ box-shadow: 3px 3px 20px black;
     position: relative;
     left: -30px;
   }
+  .pagination
+  {
+    position: relative;
+    margin: auto;
+  }
   .pagination a {
     color: black;
     float: left;
