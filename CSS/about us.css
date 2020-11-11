@@ -1,0 +1,25 @@
+.Ourstorybackground{
+    background-image: url(../image/menu/AboutUs/background.jpg);
+    
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+   
+}
+input:required:valid{
+    color: green;
+}
+input:required:invalid
+{
+    background-color:silver;
+    color:black;
+}
