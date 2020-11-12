@@ -4,6 +4,10 @@ body
     margin: auto;
 }
 /*Hover-Start*/
+.Featured-Frames-text div img:hover
+{
+    box-shadow: 8px 8px 8px palevioletred;
+}
 .Genuine-New-Glasses div img:hover
 {
  
