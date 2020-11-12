@@ -12,9 +12,9 @@ body
 {
  
     background-color:rgb(233, 18, 90);
-    box-shadow: 8px 8px 5px rgb(136, 5, 49) ;
+    box-shadow: 8px 8px 5px palevioletred;
 }
-.border-brand div:hover
+.çcdiv:hover
 {
     box-shadow:5px 5px 5px palevioletred;
 
