@@ -6,7 +6,7 @@ body
 /*Hover-Start*/
 .border-brand div:hover
 {
-    box-shadow:3px 3px 3px palevioletred;
+    box-shadow:5px 5px 5px palevioletred;
 
 }
 .dropdown-menu-li a:hover
