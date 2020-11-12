@@ -4,6 +4,12 @@ body
     margin: auto;
 }
 /*Hover-Start*/
+.Genuine-New-Glasses div img:hover
+{
+ 
+    background-color:rgb(233, 18, 90);
+    box-shadow: 8px 8px 5px rgb(136, 5, 49) ;
+}
 .border-brand div:hover
 {
     box-shadow:5px 5px 5px palevioletred;
